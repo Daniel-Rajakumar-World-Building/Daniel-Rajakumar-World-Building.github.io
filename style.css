@@ -215,3 +215,12 @@ main {
 .solar #solarIcon {
   display: block;
 }
+
+
+.container {
+  overscroll-behavior: none;
+  width: 600vw;
+  height: 100vh;
+  display: flex;
+  flex-wrap: nowrap;
+}

@@ -2,11 +2,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <script defer src="theme.js"></script>
   <link rel="stylesheet" href="style.css" />
-  <link
-    href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap"
-    rel="stylesheet"
-  />
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/ScrollTrigger.min.js"></script>
 </head>
 
 <body>
@@ -18,7 +17,6 @@
           <i class="fa-solid fa-dna"></i>
         </a>
       </li>
-
 
       <li class="nav-item">
         <a href="#" class="nav-link">
@@ -44,5 +42,20 @@
   </nav>
 
   <main>
+    <div class="container">
+      <div class="description panel red">
+        <div><h1>Horizontal snapping sections (simple)</h1>
+          <p>Scroll vertically to scrub the horizontal animation. It also dynamically snaps to the sections in an organic way based on the velocity. The snapping occurs based on the natural ending position after momentum is applied, not a simplistic "wherever it is when the user stops".</p>
+          <div class="scroll-down">Scroll down<div class="arrow"></div></div>
+        </div>
+      </div>
+
+
+      <section class="panel blue"> ONE </section>
+      <section class="panel green"> TWO </section>
+      <section class="panel"> THREE </section>
+      <section class="panel"> FOUR </section>
+      <section class="panel"> FIVE </section>
+    </div>
   </main>
 </body>
