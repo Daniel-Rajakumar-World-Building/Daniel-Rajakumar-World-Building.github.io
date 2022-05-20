@@ -16,7 +16,8 @@
 }
 
 
-.main-menu:hover, main-menu.expanded {
+.main-menu:hover,
+main-menu.expanded {
   width:250px;
   overflow:visible;
 }
@@ -117,7 +118,7 @@ nav {
   -o-user-select:none;
   user-select:none;
 
-  ul,nav li {
+  ul, nav li {
     outline:0;
     margin:0;
     padding:0;
