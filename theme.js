@@ -22,9 +22,9 @@ function toggleTheme() {
 document.getElementById('themeButton').onclick = toggleTheme;
 
 
-console.log("hello world: " + gsap)
 let sections = gsap.utils.toArray(".panel");
 
+console.log("hello world: " + sections)
 gsap.to(sections, {
   xPercent: -100 * (sections.length - 1),
   ease: "none",
