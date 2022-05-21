@@ -221,35 +221,145 @@ main {
 
 .container {
   overscroll-behavior: none;
-  width: 600%;
+  width: 1000%;
   height: 100%;
   display: flex;
   flex-wrap: nowrap;
+
 }
 
 .panel {
   width: 100vw;
+  //padding: 1rem;
 
-  &.one {
-    background-color: red;
+  &.one_0 {
+    background: url(/assets/cats_vs_dog_wallpaper.jpeg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
   }
 
-  &.two {
+  &.two_0 {
+    background-color: darkblue;
+  }
+
+  &.three_0 {
     background-color: blue;
   }
 
-  &.three {
+  &.four_0 {
+    background-color: darkblue;
+  }
+
+  &.five_0 {
+    background-color: blue;
+  }
+
+  // politics
+  &.one_1 {
+    background: url(/assets/politics_wallpaper.jpeg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+  &.two_1 {
+    background-color: grey;
+    padding: 0;
+    margin: 0;
+    //flex: auto;
+    //display: grid;
+    //
+    template_1 {
+      background: red;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      //gap: 10px;
+      grid-auto-rows: minmax(100px, auto);
+
+      .one {
+        background: blue;
+        grid-column: 1;
+        grid-row: 1/span 9;
+
+
+        img {
+          //width: fit-content;
+          //height: auto;
+          //height: max-content;
+
+          //display: block;
+          //margin-left: auto;
+          //margin: auto;
+          //width: 50%;
+          //object-fit: cover;
+          height: 100%;
+          width: 100%;
+          object-fit: cover;
+        }
+      }
+      .two {
+        background: yellow;
+        grid-column: 2;
+        grid-row: 1 / span 1;
+
+      }
+
+      .three {
+        background: green;
+        grid-column: 2;
+        grid-row: 2 / span 9;
+      }
+      //img {
+      //align-content: center;
+      //align-items: center;
+      //padding: 0;
+      //margin: 0;
+      //}
+    }
+  }
+
+  &.three_1 {
+    background-color: green;
+
+  }
+
+  &.four_1 {
+    background-color: darkgreen;
+  }
+
+  &.five_1 {
     background-color: green;
   }
 
-  &.four {
-    background-color: purple;
+  // religion
+  &.one_2 {
+    background-image: url(/assets/religion_artwork.jpeg);
   }
 
-  &.five {
-    background-color: orangered;
+  &.two_2 {
+    background-color: darkred;
   }
+
+  &.three_2 {
+    background-color: red;
+  }
+
+  &.four_2 {
+    background-color: darkred;
+  }
+
+  &.five_2 {
+    background-color: red;
+  }
+
 }
+
+
+
+
 
 
 
