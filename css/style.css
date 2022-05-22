@@ -255,31 +255,6 @@ main {
   padding: 0;
   margin: 0;
 }
-.panel.two_1 template_1 {
-  background: red;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(1, 1fr);
-}
-.panel.two_1 template_1 .one {
-  background: blue;
-  grid-column: 1;
-  grid-row: 1/span 9;
-}
-.panel.two_1 template_1 .one img {
-  height: 100vh;
-  width: 100%;
-  object-fit: cover;
-}
-.panel.two_1 template_1 .two {
-  background: yellow;
-  grid-column: 2;
-  grid-row: 1/span 1;
-  display: flex;
-}
-.panel.two_1 template_1 .two p {
-  margin: auto;
-}
 .panel.three_1 {
   background-color: green;
 }
@@ -304,6 +279,40 @@ main {
 }
 .panel.five_2 {
   background-color: red;
+}
+.panel template_1 {
+  background: red;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+}
+.panel template_1 .one {
+  background: blue;
+  grid-column: 1;
+  grid-row: 1/span 9;
+}
+.panel template_1 .one img {
+  height: 100vh;
+  width: 100%;
+  object-fit: cover;
+}
+.panel template_1 .two {
+  background: var(--bg-primary);
+  grid-column: 2;
+  grid-row: 1/span 1;
+  display: flex;
+}
+.panel template_1 .two p {
+  margin: auto;
+}
+.panel template_1 .three {
+  background: yellow;
+  grid-column: 2;
+  grid-row: 1/span 1;
+  display: flex;
+}
+.panel template_1 .three p {
+  margin: auto;
 }
 .panel card-view {
   position: relative;
@@ -335,7 +344,7 @@ main {
 }
 .panel card-view card-face:first-child p {
   font-size: 5vh;
-  background-color: yellow;
+  background-color: var(--text-primary);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
