@@ -272,6 +272,7 @@ main {
     //flex: auto;
     //display: grid;
     //
+
     template_1 {
       background: red;
       display: grid;
@@ -285,7 +286,7 @@ main {
         grid-row: 1/span 9;
 
         img {
-          height: 100%;
+          height: 100vh;
           width: 100%;
           object-fit: cover;
         }
@@ -306,7 +307,19 @@ main {
         background: green;
         grid-column: 2;
         grid-row: 2 / span 9;
+        //display: flex;
+        //flex-direction: column;
+        //justify-content: space-around;
+
+        p {
+          //text-align: center;
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+          width: 40%;
+        }
       }
+
       //img {
       //align-content: center;
       //align-items: center;
@@ -332,6 +345,7 @@ main {
   // religion
   &.one_2 {
     background-image: url(/assets/religion_artwork.jpeg);
+    background-size: cover;
   }
 
   &.two_2 {
