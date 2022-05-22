@@ -173,7 +173,7 @@ main {
   }
 
   .navbar:hover .logo-text {
-    left: 0px;
+    left: 0;
   }
 }
 .dark {
@@ -231,6 +231,14 @@ main {
   -o-background-size: cover;
   background-size: cover;
 }
+.panel.one_0 p {
+  font-size: 10rem;
+  color: white;
+  -webkit-text-stroke: 0.5rem black;
+  font-family: Arial, serif;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
 .panel.one_1 {
   background: url(/assets/politics_wallpaper.jpeg) no-repeat 50% 50% fixed;
   -webkit-background-size: cover;
@@ -238,12 +246,28 @@ main {
   -o-background-size: cover;
   background-size: cover;
 }
+.panel.one_1 p {
+  font-size: 10rem;
+  color: white;
+  -webkit-text-stroke: 0.5rem black;
+  font-family: Arial, serif;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
 .panel.five_1 template_1 .one img {
   object-position: 0 0;
 }
 .panel.one_2 {
   background: url(/assets/religion_artwork.jpeg) no-repeat 100% 0 fixed;
   background-size: cover;
+}
+.panel.one_2 p {
+  font-size: 10rem;
+  color: white;
+  -webkit-text-stroke: 0.5rem black;
+  font-family: Arial, serif;
+  position: absolute;
+  transform: translate(-50%, -50%);
 }
 .panel.three_2 template_1 .one img {
   object-position: 0 0;

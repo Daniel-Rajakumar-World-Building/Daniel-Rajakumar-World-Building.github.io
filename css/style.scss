@@ -177,7 +177,7 @@ main {
 
   .navbar:hover .logo-text
   {
-    left: 0px;
+    left: 0;
   }
 }
 
@@ -239,6 +239,15 @@ main {
     -o-background-size: cover;
     background-size: cover;
     //object-fit: cover;
+
+    p {
+      font-size: 10rem;
+      color: white;
+      -webkit-text-stroke: 0.5rem black;
+      font-family: Arial, serif;
+      position: absolute;
+      transform: translate(-50%, -50%)
+    }
   }
 
   &.two_0 { }
@@ -256,6 +265,17 @@ main {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+
+    p {
+      font-size: 10rem;
+      color: white;
+      -webkit-text-stroke: 0.5rem black;
+      font-family: Arial, serif;
+      position: absolute;
+      transform: translate(-50%, -50%)
+    }
+
+
   }
 
   &.two_1 { }
@@ -274,6 +294,16 @@ main {
   &.one_2 {
     background: url(/assets/religion_artwork.jpeg) no-repeat 100% 0 fixed;
     background-size: cover;
+
+
+    p {
+      font-size: 10rem;
+      color: white;
+      -webkit-text-stroke: 0.5rem black;
+      font-family: Arial, serif;
+      position: absolute;
+      transform: translate(-50%, -50%)
+    }
   }
 
   &.two_2 { }

@@ -42,3 +42,10 @@ gsap.to(sections, {
   }
 });
 
+
+// gsap.from("#page_one_title", {
+// });
+
+gsap.fromTo("#page_one_title", 1, { x:"50vw", y:"100vh", }, { x: "50vw", y: "20vh", })
+gsap.fromTo("#page_two_title", 1, { x:"50vw", y:"100vh", }, { x: "50vw", y: "20vh", })
+gsap.fromTo("#page_three_title", 1, { x:"50vw", y:"100vh", }, { x: "50vw", y: "20vh", })
