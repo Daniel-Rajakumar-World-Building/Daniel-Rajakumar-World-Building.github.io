@@ -284,27 +284,22 @@ main {
         grid-column: 1;
         grid-row: 1/span 9;
 
-
         img {
-          //width: fit-content;
-          //height: auto;
-          //height: max-content;
-
-          //display: block;
-          //margin-left: auto;
-          //margin: auto;
-          //width: 50%;
-          //object-fit: cover;
           height: 100%;
           width: 100%;
           object-fit: cover;
         }
       }
+
       .two {
         background: yellow;
         grid-column: 2;
         grid-row: 1 / span 1;
+        display: flex;
 
+        p {
+          margin: auto;
+        }
       }
 
       .three {
