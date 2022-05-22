@@ -280,63 +280,6 @@ main {
 .panel.two_1 template_1 .two p {
   margin: auto;
 }
-.panel.two_1 template_1 .two card-view {
-  position: relative;
-  width: 80%;
-  height: 90%;
-  margin: 5%;
-  background: #000;
-  border-radius: 15px;
-  box-shadow: 0 15px 60px rgba(0, 0, 0, 0.5);
-}
-.panel.two_1 template_1 .two card-view card-face {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-.panel.two_1 template_1 .two card-view card-face:first-child {
-  box-sizing: border-box;
-  padding: 20px;
-}
-.panel.two_1 template_1 .two card-view card-face:first-child h2 {
-  margin: 0;
-  padding: 0;
-}
-.panel.two_1 template_1 .two card-view card-face:first-child p {
-  font-size: 5vh;
-  background-color: yellow;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.panel.two_1 template_1 .two card-view card-face:last-child {
-  transition: 0.5s;
-}
-.panel.two_1 template_1 .two card-view card-face:last-child h2 {
-  margin: 0;
-  padding: 0;
-  font-size: 2rem;
-  text-align: center;
-  color: #fff;
-  transition: 0.5s;
-  text-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-  z-index: 10;
-}
-.panel.two_1 template_1 .two card-view:hover card-face:last-child {
-  height: 60px;
-}
-.panel.two_1 template_1 .two card-view:hover card-face:last-child h2 {
-  font-size: 2rem;
-}
-.panel.two_1 template_1 .two card-view:nth-child(1) card-face:last-child {
-  background-image: linear-gradient(45deg, #fffc00 0%, #fc00ff 45%, #00fffc 100%);
-  border-radius: 15px;
-}
 .panel.three_1 {
   background-color: green;
 }
@@ -361,6 +304,63 @@ main {
 }
 .panel.five_2 {
   background-color: red;
+}
+.panel card-view {
+  position: relative;
+  width: 80%;
+  height: 90%;
+  margin: 5%;
+  background: #000;
+  border-radius: 15px;
+  box-shadow: 0 15px 60px rgba(0, 0, 0, 0.5);
+}
+.panel card-view card-face {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.panel card-view card-face:first-child {
+  box-sizing: border-box;
+  padding: 20px;
+}
+.panel card-view card-face:first-child h2 {
+  margin: 0;
+  padding: 0;
+}
+.panel card-view card-face:first-child p {
+  font-size: 5vh;
+  background-color: yellow;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.panel card-view card-face:last-child {
+  transition: 0.5s;
+}
+.panel card-view card-face:last-child h2 {
+  margin: 0;
+  padding: 0;
+  font-size: 2rem;
+  text-align: center;
+  color: #fff;
+  transition: 0.5s;
+  text-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  z-index: 10;
+}
+.panel card-view:hover card-face:last-child {
+  height: 60px;
+}
+.panel card-view:hover card-face:last-child h2 {
+  font-size: 2rem;
+}
+.panel card-view:nth-child(1) card-face:last-child {
+  background-image: linear-gradient(45deg, #fffc00 0%, #fc00ff 45%, #00fffc 100%);
+  border-radius: 15px;
 }
 
 /*# sourceMappingURL=style.css.map */
