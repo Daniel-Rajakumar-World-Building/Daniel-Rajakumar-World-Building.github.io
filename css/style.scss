@@ -303,7 +303,7 @@ main {
           margin: auto;
         }
 
-        .card {
+        card-view {
           position: relative;
           width: 80%;
           height: 90% ;
@@ -313,7 +313,7 @@ main {
           border-radius: 15px;
           box-shadow: 0 15px 60px rgba(0, 0, 0, 0.5);
 
-          .face {
+          card-face {
             position: absolute;
             bottom: 0;
             left: 0;
@@ -324,7 +324,7 @@ main {
             justify-content: center;
             align-items: center;
 
-            &.face1 {
+            &:first-child {
               box-sizing: border-box;
               padding: 20px;
 
@@ -341,7 +341,7 @@ main {
               }
             }
 
-            &.face2 {
+            &:last-child {
               transition: 0.5s;
 
               h2 {
@@ -358,17 +358,14 @@ main {
           }
         }
 
-        .card:hover .face.face2 {
+        card-view:hover card-face:last-child {
           height: 60px;
-
-          h2 {
-            font-size: 2rem;
-          }
+          h2 { font-size: 2rem; }
         }
 
-        .card:nth-child(1) .face.face2 {
+        card-view:nth-child(1) card-face:last-child {
           background-image: linear-gradient(
-                          40deg,
+                          45deg,
                           #fffc00 0%,
                           #fc00ff 45%,
                           #00fffc 100%

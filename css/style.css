@@ -280,7 +280,7 @@ main {
 .panel.two_1 template_1 .two p {
   margin: auto;
 }
-.panel.two_1 template_1 .two .card {
+.panel.two_1 template_1 .two card-view {
   position: relative;
   width: 80%;
   height: 90%;
@@ -289,7 +289,7 @@ main {
   border-radius: 15px;
   box-shadow: 0 15px 60px rgba(0, 0, 0, 0.5);
 }
-.panel.two_1 template_1 .two .card .face {
+.panel.two_1 template_1 .two card-view card-face {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -300,24 +300,24 @@ main {
   justify-content: center;
   align-items: center;
 }
-.panel.two_1 template_1 .two .card .face.face1 {
+.panel.two_1 template_1 .two card-view card-face:first-child {
   box-sizing: border-box;
   padding: 20px;
 }
-.panel.two_1 template_1 .two .card .face.face1 h2 {
+.panel.two_1 template_1 .two card-view card-face:first-child h2 {
   margin: 0;
   padding: 0;
 }
-.panel.two_1 template_1 .two .card .face.face1 p {
+.panel.two_1 template_1 .two card-view card-face:first-child p {
   font-size: 5vh;
   background-color: yellow;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.panel.two_1 template_1 .two .card .face.face2 {
+.panel.two_1 template_1 .two card-view card-face:last-child {
   transition: 0.5s;
 }
-.panel.two_1 template_1 .two .card .face.face2 h2 {
+.panel.two_1 template_1 .two card-view card-face:last-child h2 {
   margin: 0;
   padding: 0;
   font-size: 2rem;
@@ -327,14 +327,14 @@ main {
   text-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
   z-index: 10;
 }
-.panel.two_1 template_1 .two .card:hover .face.face2 {
+.panel.two_1 template_1 .two card-view:hover card-face:last-child {
   height: 60px;
 }
-.panel.two_1 template_1 .two .card:hover .face.face2 h2 {
+.panel.two_1 template_1 .two card-view:hover card-face:last-child h2 {
   font-size: 2rem;
 }
-.panel.two_1 template_1 .two .card:nth-child(1) .face.face2 {
-  background-image: linear-gradient(40deg, #fffc00 0%, #fc00ff 45%, #00fffc 100%);
+.panel.two_1 template_1 .two card-view:nth-child(1) card-face:last-child {
+  background-image: linear-gradient(45deg, #fffc00 0%, #fc00ff 45%, #00fffc 100%);
   border-radius: 15px;
 }
 .panel.three_1 {
