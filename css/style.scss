@@ -233,11 +233,12 @@ main {
   //padding: 1rem;
 
   &.one_0 {
-    background: url(/assets/cats_vs_dog_wallpaper.jpeg) no-repeat center center fixed;
+    background: url(/assets/cats_vs_dog_wallpaper.jpeg) no-repeat 50% 50% fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    //object-fit: cover;
   }
 
   &.two_0 { }
@@ -302,7 +303,7 @@ main {
 
 
   template_1 {
-    background: red;
+    //background: red;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(1, 1fr);
@@ -367,7 +368,7 @@ main {
     //margin: 100px;
     margin: 5%;
     background: #000;
-    border-radius: 15px;
+    border-radius: 100px;
     box-shadow: 0 15px 60px rgba(0, 0, 0, 0.5);
 
     card-face {
@@ -416,7 +417,7 @@ main {
   }
 
   card-view:hover card-face:last-child {
-    height: 60px;
+    height: 100px;
     h2 { font-size: 2rem; }
   }
 
@@ -427,7 +428,7 @@ main {
                     #fc00ff 45%,
                     #00fffc 100%
     );
-    border-radius: 15px;
+    border-radius: 100px;
   }
 
 
