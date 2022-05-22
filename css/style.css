@@ -231,18 +231,6 @@ main {
   -o-background-size: cover;
   background-size: cover;
 }
-.panel.two_0 {
-  background-color: darkblue;
-}
-.panel.three_0 {
-  background-color: blue;
-}
-.panel.four_0 {
-  background-color: darkblue;
-}
-.panel.five_0 {
-  background-color: blue;
-}
 .panel.one_1 {
   background: url(/assets/politics_wallpaper.jpeg) no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -250,35 +238,15 @@ main {
   -o-background-size: cover;
   background-size: cover;
 }
-.panel.two_1 {
-  background-color: grey;
-  padding: 0;
-  margin: 0;
-}
-.panel.three_1 {
-  background-color: green;
-}
-.panel.four_1 {
-  background-color: darkgreen;
-}
-.panel.five_1 {
-  background-color: green;
+.panel.five_1 template_1 .one img {
+  height: 100vh;
+  width: 100%;
+  object-fit: cover;
+  object-position: 0 0;
 }
 .panel.one_2 {
   background-image: url(/assets/religion_artwork.jpeg);
   background-size: cover;
-}
-.panel.two_2 {
-  background-color: darkred;
-}
-.panel.three_2 {
-  background-color: red;
-}
-.panel.four_2 {
-  background-color: darkred;
-}
-.panel.five_2 {
-  background-color: red;
 }
 .panel template_1 {
   background: red;

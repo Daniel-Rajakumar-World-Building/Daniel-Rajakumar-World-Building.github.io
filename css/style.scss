@@ -240,21 +240,13 @@ main {
     background-size: cover;
   }
 
-  &.two_0 {
-    background-color: darkblue;
-  }
+  &.two_0 { }
 
-  &.three_0 {
-    background-color: blue;
-  }
+  &.three_0 { }
 
-  &.four_0 {
-    background-color: darkblue;
-  }
+  &.four_0 { }
 
-  &.five_0 {
-    background-color: blue;
-  }
+  &.five_0 { }
 
   // politics
   &.one_1 {
@@ -265,27 +257,23 @@ main {
     background-size: cover;
   }
 
-  &.two_1 {
-    background-color: grey;
-    padding: 0;
-    margin: 0;
-    //flex: auto;
-    //display: grid;
-    //
+  &.two_1 { }
 
-  }
+  &.three_1 { }
 
-  &.three_1 {
-    background-color: green;
-
-  }
-
-  &.four_1 {
-    background-color: darkgreen;
-  }
+  &.four_1 { }
 
   &.five_1 {
-    background-color: green;
+    template_1 {
+      .one {
+        img {
+          height: 100vh;
+          width: 100%;
+          object-fit: cover;
+          object-position: 0 0;
+        }
+      }
+    }
   }
 
   // religion
@@ -294,21 +282,13 @@ main {
     background-size: cover;
   }
 
-  &.two_2 {
-    background-color: darkred;
-  }
+  &.two_2 { }
 
-  &.three_2 {
-    background-color: red;
-  }
+  &.three_2 { }
 
-  &.four_2 {
-    background-color: darkred;
-  }
+  &.four_2 { }
 
-  &.five_2 {
-    background-color: red;
-  }
+  &.five_2 { }
 
 
 
