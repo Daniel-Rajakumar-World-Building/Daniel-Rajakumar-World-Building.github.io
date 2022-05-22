@@ -232,21 +232,24 @@ main {
   background-size: cover;
 }
 .panel.one_1 {
-  background: url(/assets/politics_wallpaper.jpeg) no-repeat center center fixed;
+  background: url(/assets/politics_wallpaper.jpeg) no-repeat 50% 50% fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
 .panel.five_1 template_1 .one img {
-  height: 100vh;
-  width: 100%;
-  object-fit: cover;
   object-position: 0 0;
 }
 .panel.one_2 {
-  background-image: url(/assets/religion_artwork.jpeg);
+  background: url(/assets/religion_artwork.jpeg) no-repeat 100% 0 fixed;
   background-size: cover;
+}
+.panel.three_2 template_1 .one img {
+  object-position: 0 0;
+}
+.panel.four_2 template_1 .one img {
+  object-position: 100% 0;
 }
 .panel template_1 {
   display: grid;
