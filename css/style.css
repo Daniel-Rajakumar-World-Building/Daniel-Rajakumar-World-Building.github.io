@@ -259,7 +259,7 @@ main {
   background: red;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-auto-rows: minmax(100px, auto);
+  grid-template-rows: repeat(1, 1fr);
 }
 .panel.two_1 template_1 .one {
   background: blue;
@@ -280,16 +280,61 @@ main {
 .panel.two_1 template_1 .two p {
   margin: auto;
 }
-.panel.two_1 template_1 .three {
-  background: green;
-  grid-column: 2;
-  grid-row: 2/span 9;
+.panel.two_1 template_1 .two .card {
+  position: relative;
+  width: 80%;
+  height: 90%;
+  margin: 5%;
+  background: #000;
+  border-radius: 15px;
+  box-shadow: 0 15px 60px rgba(0, 0, 0, 0.5);
 }
-.panel.two_1 template_1 .three p {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 40%;
+.panel.two_1 template_1 .two .card .face {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.panel.two_1 template_1 .two .card .face.face1 {
+  box-sizing: border-box;
+  padding: 20px;
+}
+.panel.two_1 template_1 .two .card .face.face1 h2 {
+  margin: 0;
+  padding: 0;
+}
+.panel.two_1 template_1 .two .card .face.face1 p {
+  font-size: 5vh;
+  background-color: yellow;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.panel.two_1 template_1 .two .card .face.face2 {
+  transition: 0.5s;
+}
+.panel.two_1 template_1 .two .card .face.face2 h2 {
+  margin: 0;
+  padding: 0;
+  font-size: 2rem;
+  text-align: center;
+  color: #fff;
+  transition: 0.5s;
+  text-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  z-index: 10;
+}
+.panel.two_1 template_1 .two .card:hover .face.face2 {
+  height: 60px;
+}
+.panel.two_1 template_1 .two .card:hover .face.face2 h2 {
+  font-size: 2rem;
+}
+.panel.two_1 template_1 .two .card:nth-child(1) .face.face2 {
+  background-image: linear-gradient(40deg, #fffc00 0%, #fc00ff 45%, #00fffc 100%);
+  border-radius: 15px;
 }
 .panel.three_1 {
   background-color: green;
