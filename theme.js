@@ -22,6 +22,10 @@ function toggleTheme() {
 document.getElementById('themeButton').onclick = toggleTheme;
 
 
+
+
+
+
 let sections = gsap.utils.toArray(".panel");
 
 console.log("hello world: " + sections)
