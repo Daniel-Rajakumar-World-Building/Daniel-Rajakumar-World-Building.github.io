@@ -245,12 +245,22 @@ main {
 .panel.two_0 template_1 .one img {
   object-position: 0 0;
 }
+.panel.three_0 template_1 .one img {
+  object-fit: contain;
+  animation-name: zoominoutsinglefeatured;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
 .panel.four_0 template_1 .two card-view card-face p {
   font-size: 2.5rem;
 }
 .panel.six_0 template_1 .two card-view card-face p {
   font-size: 2.5rem;
   word-break: break-word;
+}
+.panel.seven_0 template_1 .one img {
+  object-fit: contain;
 }
 .panel.nine_0 template_1 .one img {
   object-fit: contain;
@@ -397,6 +407,17 @@ main {
   }
   100% {
     transform: translate(0, 0px);
+  }
+}
+@keyframes zoominoutsinglefeatured {
+  0% {
+    transform: scale(1, 1);
+  }
+  50% {
+    transform: scale(1.1, 1.1);
+  }
+  100% {
+    transform: scale(1, 1);
   }
 }
 
