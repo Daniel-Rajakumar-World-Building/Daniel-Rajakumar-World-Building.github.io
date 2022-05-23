@@ -239,6 +239,11 @@ main {
   //&.politics {
   //  width: 700%;
   //}
+
+  &.threeDPage {
+    width: 100%;
+  }
+  
 }
 
 
@@ -478,6 +483,30 @@ main {
 &.six_3 {}
 
 
+ &.one_4 {
+
+   template_1 {
+     .two card-view card-face p {
+       font-size: 1.8vw;
+     }
+
+     .one .threeD iframe {
+       height: 100vh;
+       width: 50vw;
+     }
+
+     .two .threeD iframe {
+       height: 100vh;
+       width: 45vw;
+     }
+   }
+
+   template_1 {
+   .one {
+     height: 90vh;
+   }
+ }
+}
 
 
 
@@ -617,7 +646,6 @@ template_1 {
     );
     border-radius: 100px;
   }
-
 
 
 

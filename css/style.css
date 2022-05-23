@@ -220,6 +220,9 @@ main {
   display: flex;
   flex-wrap: nowrap;
 }
+.container.threeDPage {
+  width: 100%;
+}
 
 .panel {
   width: 100vw;
@@ -350,6 +353,20 @@ main {
   animation-duration: 3s;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
+}
+.panel.one_4 template_1 .two card-view card-face p {
+  font-size: 1.8vw;
+}
+.panel.one_4 template_1 .one .threeD iframe {
+  height: 100vh;
+  width: 50vw;
+}
+.panel.one_4 template_1 .two .threeD iframe {
+  height: 100vh;
+  width: 45vw;
+}
+.panel.one_4 template_1 .one {
+  height: 90vh;
 }
 .panel template_1 {
   display: grid;
