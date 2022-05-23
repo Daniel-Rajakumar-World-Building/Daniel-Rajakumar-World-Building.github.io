@@ -358,8 +358,20 @@ main {
   width: 100%;
   object-fit: contain;
 }
-.panel.one_4 template_1 .two card-view card-face p {
-  font-size: 1.8vw;
+.panel.one_4 template_1 .one p {
+  margin: 2vh;
+  font-size: 1.5vw;
+  text-align: center;
+  color: var(--text-primary);
+}
+.panel.one_4 template_1 .two {
+  flex-direction: column;
+}
+.panel.one_4 template_1 .two p {
+  margin: 2vh;
+  font-size: 1.5vw;
+  text-align: center;
+  color: var(--text-primary);
 }
 .panel.one_4 template_1 .one .threeD iframe {
   height: 100vh;

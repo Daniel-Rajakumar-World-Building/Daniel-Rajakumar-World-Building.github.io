@@ -49,3 +49,5 @@ gsap.to(sections, {
 gsap.fromTo("#page_one_title", 2, { x:"50vw", y:"100vh", }, { x: "50vw", y: "20vh", ease: "power4.out" })
 gsap.fromTo("#page_two_title", 2, { x:"50vw", y:"100vh", }, { x: "50vw", y: "20vh", ease: "power4.out"})
 gsap.fromTo("#page_three_title", 2, { x:"50vw", y:"100vh", }, { x: "50vw", y: "20vh", ease: "power4.out"})
+// gsap.fromTo("#page_four_cat", 2, { x:"50vw", y:"100vh", }, { x: "50vw", y: "20vh", ease: "power4.out"})
+gsap.to("#page_four_cat", 2, { x: "50vw", y: "20vh", ease: "power4.out"})
