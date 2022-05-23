@@ -288,9 +288,17 @@ main {
 
   &.five_0 { }
 
-  &.six_0 { }
+  &.six_0 {
 
-  &.seven_0 { }
+    template_1 .two card-view card-face p {
+      font-size: 2.5rem;
+      word-break: break-word;
+    }
+
+  }
+
+  &.seven_0 {
+  }
 
   &.eight_0 { }
 
