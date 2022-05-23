@@ -242,6 +242,12 @@ main {
 .panel.two_0 template_1 .two card-view card-face p {
   font-size: 1.8vw;
 }
+.panel.two_0 template_1 .one img {
+  object-position: 0 0;
+}
+.panel.four_0 template_1 .two card-view card-face p {
+  font-size: 2.5rem;
+}
 .panel.one_1 {
   background: url(/assets/politics_wallpaper.jpeg) no-repeat 50% 50% fixed;
   -webkit-background-size: cover;
@@ -286,7 +292,7 @@ main {
   grid-template-rows: repeat(1, 1fr);
 }
 .panel template_1 .one {
-  background: blue;
+  background: var(--bg-primary);
   grid-column: 1;
   grid-row: 1/span 9;
 }

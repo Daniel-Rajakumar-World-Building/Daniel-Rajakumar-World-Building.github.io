@@ -266,14 +266,25 @@ main {
   }
 
   &.two_0 {
-    template_1 .two card-view card-face p {
-      font-size: 1.8vw;
+    template_1 {
+
+      .two card-view card-face p {
+        font-size: 1.8vw;
+      }
+
+      .one img {
+        object-position: 0 0;
+      }
     }
   }
 
   &.three_0 { }
 
-  &.four_0 { }
+  &.four_0 {
+    template_1 .two card-view card-face p {
+      font-size: 2.5rem;
+    }
+  }
 
   &.five_0 { }
 
@@ -336,7 +347,7 @@ main {
   &.three_2 {
     template_1 .one img {
           object-position: 0 0;
-      }
+    }
   }
 
   &.four_2 {
@@ -367,7 +378,7 @@ main {
     //grid-auto-rows: minmax(, auto);
 
     .one {
-      background: blue;
+      background: var(--bg-primary);
       grid-column: 1;
       grid-row: 1/span 9;
 
