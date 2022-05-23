@@ -288,6 +288,21 @@ main {
 
   &.five_0 { }
 
+  &.six_0 { }
+
+  &.seven_0 { }
+
+  &.eight_0 { }
+
+  &.nine_0 {
+    template_1 .one img {
+      object-fit: contain;
+    }
+  }
+
+  &.ten_0 { }
+
+
   // politics
   &.one_1 {
     background: url(/assets/politics_wallpaper.jpeg) no-repeat 50% 50% fixed;

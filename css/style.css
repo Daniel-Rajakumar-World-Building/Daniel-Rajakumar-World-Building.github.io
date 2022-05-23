@@ -248,6 +248,9 @@ main {
 .panel.four_0 template_1 .two card-view card-face p {
   font-size: 2.5rem;
 }
+.panel.nine_0 template_1 .one img {
+  object-fit: contain;
+}
 .panel.one_1 {
   background: url(/assets/politics_wallpaper.jpeg) no-repeat 50% 50% fixed;
   -webkit-background-size: cover;
