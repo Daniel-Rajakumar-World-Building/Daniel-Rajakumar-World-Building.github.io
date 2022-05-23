@@ -226,7 +226,22 @@ main {
   display: flex;
   flex-wrap: nowrap;
 
+  //&.index {
+  //  width: 500%;
+  //}
+  //
+  //
+  //&.religion {
+  //  width: 500%;
+  //}
+  //
+  //
+  //&.politics {
+  //  width: 700%;
+  //}
 }
+
+
 
 .panel {
   width: 100vw;
@@ -250,7 +265,11 @@ main {
     }
   }
 
-  &.two_0 { }
+  &.two_0 {
+    template_1 .two card-view card-face p {
+      font-size: 1.8vw;
+    }
+  }
 
   &.three_0 { }
 
@@ -293,6 +312,10 @@ main {
   // religion
   &.one_2 {
     background: url(/assets/religion_artwork.jpeg) no-repeat 100% 0 fixed;
+    //background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
 
 
@@ -300,7 +323,9 @@ main {
       font-size: 10rem;
       color: white;
       -webkit-text-stroke: 0.5rem black;
-      font-family: Arial, serif;
+
+      // what in the world?????? word "RELIGION" acts weird on the home-screen. uncomment below line to see.
+      //font-family: Arial, serif;
       position: absolute;
       transform: translate(-50%, -50%)
     }
@@ -423,7 +448,7 @@ main {
         }
 
         p {
-          font-size: 5vh;
+          font-size: 2.5vw;
           background-color: var(--text-primary);
           -webkit-background-clip: text;
           -webkit-text-fill-color: transparent;
@@ -436,7 +461,7 @@ main {
         h2 {
           margin: 0;
           padding: 0;
-          font-size: 2rem;
+          font-size: 6vw;
           text-align: center;
           color: #fff;
           transition: 0.5s;

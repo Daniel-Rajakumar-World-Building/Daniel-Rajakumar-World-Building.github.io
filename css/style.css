@@ -239,6 +239,9 @@ main {
   position: absolute;
   transform: translate(-50%, -50%);
 }
+.panel.two_0 template_1 .two card-view card-face p {
+  font-size: 1.8vw;
+}
 .panel.one_1 {
   background: url(/assets/politics_wallpaper.jpeg) no-repeat 50% 50% fixed;
   -webkit-background-size: cover;
@@ -259,13 +262,15 @@ main {
 }
 .panel.one_2 {
   background: url(/assets/religion_artwork.jpeg) no-repeat 100% 0 fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
 }
 .panel.one_2 p {
   font-size: 10rem;
   color: white;
   -webkit-text-stroke: 0.5rem black;
-  font-family: Arial, serif;
   position: absolute;
   transform: translate(-50%, -50%);
 }
@@ -337,7 +342,7 @@ main {
   padding: 0;
 }
 .panel card-view card-face:first-child p {
-  font-size: 5vh;
+  font-size: 2.5vw;
   background-color: var(--text-primary);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -348,7 +353,7 @@ main {
 .panel card-view card-face:last-child h2 {
   margin: 0;
   padding: 0;
-  font-size: 2rem;
+  font-size: 6vw;
   text-align: center;
   color: #fff;
   transition: 0.5s;
