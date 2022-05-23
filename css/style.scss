@@ -403,6 +403,34 @@ main {
   &.five_2 { }
 
 
+  // symbols
+
+  &.one_3 {
+    background: url(/assets/symbol_page.jpeg) no-repeat 50% 0 fixed;
+    //background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+
+    p {
+      font-size: 10rem;
+      color: white;
+      -webkit-text-stroke: 0.5rem black;
+      position: absolute;
+      transform: translate(-50%, -50%)
+    }
+  }
+
+  &.two_3 {}
+  &.three_3 {}
+  &.four_3 {}
+  &.five_3 {}
+  &.six_3 {}
+
+
+
 
 
 

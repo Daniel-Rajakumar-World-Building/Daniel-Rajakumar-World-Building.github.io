@@ -307,6 +307,20 @@ main {
 .panel.four_2 template_1 .one img {
   object-position: 100% 0;
 }
+.panel.one_3 {
+  background: url(/assets/symbol_page.jpeg) no-repeat 50% 0 fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.panel.one_3 p {
+  font-size: 10rem;
+  color: white;
+  -webkit-text-stroke: 0.5rem black;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
 .panel template_1 {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
