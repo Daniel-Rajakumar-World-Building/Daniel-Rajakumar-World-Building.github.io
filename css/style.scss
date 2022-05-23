@@ -480,12 +480,20 @@ main {
     }
 
 }
-&.six_3 {}
+&.six_3 {
+
+  template_1 .one img {
+    width: 100%;
+    object-fit: contain;
+  }
 
 
- &.one_4 {
+}
 
-   template_1 {
+
+  &.one_4 {
+
+    template_1 {
      .two card-view card-face p {
        font-size: 1.8vw;
      }

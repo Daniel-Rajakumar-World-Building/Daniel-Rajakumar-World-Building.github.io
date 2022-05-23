@@ -354,6 +354,10 @@ main {
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
 }
+.panel.six_3 template_1 .one img {
+  width: 100%;
+  object-fit: contain;
+}
 .panel.one_4 template_1 .two card-view card-face p {
   font-size: 1.8vw;
 }
