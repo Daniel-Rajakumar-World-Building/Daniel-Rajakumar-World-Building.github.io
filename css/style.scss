@@ -423,11 +423,59 @@ main {
     }
   }
 
-  &.two_3 {}
-  &.three_3 {}
-  &.four_3 {}
-  &.five_3 {}
-  &.six_3 {}
+  &.two_3 {
+
+    template_1 .one img {
+        animation-name: blinking;
+        animation-duration: 3s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in-out;
+      }
+  }
+  &.three_3 {
+
+    template_1 .one img {
+        animation-name: blinking;
+        animation-duration: 3s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in-out;
+    }
+
+  }
+  &.four_3 {
+
+    template_1 {
+
+      .two card-view card-face p {
+        font-size: 2vw;
+      }
+
+      .one img {
+        animation-name: floating;
+        animation-duration: 3s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in-out;
+      }
+    }
+
+  }
+  &.five_3 {
+
+    template_1 {
+      .two card-view card-face p {
+        font-size: 1.8vw;
+      }
+
+      .one img {
+        animation-name: floating;
+        animation-duration: 3s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in-out;
+      }
+    }
+
+}
+&.six_3 {}
 
 
 
@@ -441,7 +489,7 @@ main {
 
 
 
-  template_1 {
+template_1 {
     //background: red;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -619,4 +667,9 @@ main {
   100% { transform: scale(1,1); }
 }
 
+@keyframes blinking {
+  0% { opacity: 100% }
+  50% { opacity: 50%}
+  100% { opacity: 100% }
+}
 
