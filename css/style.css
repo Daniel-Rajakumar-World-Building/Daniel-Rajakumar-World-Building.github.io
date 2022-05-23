@@ -250,6 +250,10 @@ main {
 }
 .panel.nine_0 template_1 .one img {
   object-fit: contain;
+  animation-name: floating;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
 }
 .panel.one_1 {
   background: url(/assets/politics_wallpaper.jpeg) no-repeat 50% 50% fixed;
@@ -378,6 +382,18 @@ main {
 .panel card-view:nth-child(1) card-face:last-child {
   background-image: linear-gradient(45deg, #fffc00 0%, #fc00ff 45%, #00fffc 100%);
   border-radius: 100px;
+}
+
+@keyframes floating {
+  0% {
+    transform: translate(0, 0px);
+  }
+  50% {
+    transform: translate(0, 10vh);
+  }
+  100% {
+    transform: translate(0, 0px);
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
